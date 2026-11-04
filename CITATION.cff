@@ -11,7 +11,7 @@ authors:
   - family-names: Saha
     given-names: Samir K
     affiliation: Child Health Research Foundation
-repository-code: "https://github.com/CHRF-Genomics/"
+repository-code: "https://github.com/CHRF-Genomics/Serotype02"
 license: MIT
 preferred-citation:
   type: article

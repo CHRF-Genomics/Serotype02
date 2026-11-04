@@ -34,8 +34,8 @@ Figures 3 and 4 and Supplementary Figure 5 are phylogenies rendered in
 ## Running the analyses
 
 ```bash
-git clone https://github.com/CHRF-Genomics/<repository>.git
-cd <repository>
+git clone https://github.com/CHRF-Genomics/Serotype02.git
+cd Serotype02
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 jupyter lab
