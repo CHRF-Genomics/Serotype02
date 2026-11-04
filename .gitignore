@@ -1,0 +1,12 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+*.pyc
+.DS_Store
+# published alongside the paper, not redistributed here
+data/Source_Data.xlsx
+# public-domain basemap, downloaded by the user
+data/naturalearth_lowres/
+# generated outputs
+results/figures/*.pdf
+results/figures/*.png

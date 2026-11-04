@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated paper."
+title: "Analysis code for: Reemergence and global distribution of an invasive lineage of Streptococcus pneumoniae serotype 2"
+authors:
+  - family-names: Hooda
+    given-names: Yogesh
+    affiliation: Child Health Research Foundation
+  - family-names: Tanmoy
+    given-names: Arif Mohammad
+    affiliation: Child Health Research Foundation
+  - family-names: Saha
+    given-names: Samir K
+    affiliation: Child Health Research Foundation
+repository-code: "https://github.com/CHRF-Genomics/"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Reemergence and global distribution of an invasive lineage of Streptococcus pneumoniae serotype 2"
+  journal: "Nature Communications"
+  year: 2026
