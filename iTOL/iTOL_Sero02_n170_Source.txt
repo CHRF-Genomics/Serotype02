@@ -1,0 +1,213 @@
+DATASET_COLORSTRIP
+#lines starting with a hash are comments and ignored during parsing
+#select the separator which is used to delimit the data below (TAB	SPACE or COMMA).This separator must be used throught this file (except in the SEPARATOR line which uses space).
+
+SEPARATOR TAB
+#SEPARATOR SPACE
+#SEPARATOR COMMA
+
+#label is used in the legend table (can be changed later)
+DATASET_LABEL	Source
+
+#dataset color (can be changed later)
+COLOR	#000000
+
+#optional settings
+
+#all other optional settings can be set or changed later in the web interface (under 'Datasets' tab)
+COLOR_BRANCHES	1
+#maximum width
+STRIP_WIDTH	50
+
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative,causing datasets to overlap.
+MARGIN	25
+
+#border width; if set above 0, a black border of specified width (in pixels) will be drawn around the color strip 
+BORDER_WIDTH	0
+BORDER_COLOR	#000
+
+#show internal values; if set, values associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display.
+SHOW_INTERNAL	0
+
+LEGEND_TITLE	Source							
+LEGEND_SHAPES	1	1	1	1	1	1	1	1
+LEGEND_LABELS	Blood	Blood/CSF	CSF	Ear	NP	Pus	Sputum	Unknown
+LEGEND_COLORS	#e31a1c	#F4A3A6	#fb9a99	#80b1d3	#b3de69	#ffff99	#d9ef8b	#bebada
+
+#In colored strip chart each ID is associated to a color. Color can be specified in hexadecimal RGB or RGBA notation
+#Internal tree nodes can be specified using IDs directly	 or using the 'last common ancestor' method described in iTOL help pages
+#Actual data follows after the "DATA" keyword
+
+DATA
+#Sample_ID	SourceColor
+ERR025820	#bebada
+ERR026715	#bebada
+ERR047914	#bebada
+ERR1192163	#fb9a99
+ERR1202513	#fb9a99
+ERR1202542	#bebada
+ERR1202544	#e31a1c
+ERR1214429	#e31a1c
+ERR1214504	#b3de69
+ERR1214695	#F4A3A6
+ERR1288980	#fb9a99
+ERR1422615	#e31a1c
+ERR1437954	#bebada
+ERR1438703	#bebada
+ERR1438971	#bebada
+ERR1438987	#bebada
+ERR1440686	#bebada
+ERR1440801	#bebada
+ERR1440805	#bebada
+ERR1440822	#bebada
+ERR1440839	#bebada
+ERR1440841	#bebada
+ERR1658100	#b3de69
+ERR1658140	#e31a1c
+ERR1658174	#fb9a99
+ERR1658181	#d9ef8b
+ERR1658242	#fb9a99
+ERR1756423	#e31a1c
+ERR2089195	#e31a1c
+ERR2089975	#b3de69
+ERR2090004	#e31a1c
+ERR2090163	#e31a1c
+ERR2090393	#e31a1c
+ERR2090477	#e31a1c
+ERR2090745	#e31a1c
+ERR2090773	#e31a1c
+ERR2090841	#e31a1c
+ERR2090895	#F4A3A6
+ERR2091019	#F4A3A6
+ERR2091075	#F4A3A6
+ERR2091129	#e31a1c
+ERR2091196	#e31a1c
+ERR2212792	#e31a1c
+ERR2212812	#fb9a99
+ERR2212813	#fb9a99
+ERR2212814	#fb9a99
+ERR2212825	#fb9a99
+ERR2212827	#fb9a99
+ERR2212828	#fb9a99
+ERR2212831	#fb9a99
+ERR2212836	#fb9a99
+ERR2212838	#fb9a99
+ERR2212839	#fb9a99
+ERR2212856	#fb9a99
+ERR2212891	#fb9a99
+ERR2212893	#fb9a99
+ERR2212897	#e31a1c
+ERR2212908	#fb9a99
+ERR2212910	#fb9a99
+ERR2212917	#fb9a99
+ERR2212923	#fb9a99
+ERR2212929	#fb9a99
+ERR2212931	#fb9a99
+ERR2212933	#e31a1c
+ERR2212934	#e31a1c
+ERR2212937	#fb9a99
+ERR2212939	#fb9a99
+ERR2212942	#fb9a99
+ERR2212950	#e31a1c
+ERR2212959	#fb9a99
+ERR2212967	#fb9a99
+ERR2212970	#fb9a99
+ERR2212979	#fb9a99
+ERR2213014	#fb9a99
+ERR2213045	#fb9a99
+ERR2213088	#fb9a99
+ERR2213095	#e31a1c
+ERR2213096	#fb9a99
+ERR2213104	#fb9a99
+ERR2225266	#fb9a99
+ERR2225267	#e31a1c
+ERR2225282	#ffff99
+ERR2225286	#fb9a99
+ERR2225306	#fb9a99
+ERR2225313	#fb9a99
+ERR2225320	#fb9a99
+ERR2225326	#b3de69
+ERR2225327	#fb9a99
+ERR2225334	#b3de69
+ERR2225335	#fb9a99
+ERR2225341	#fb9a99
+ERR2225342	#80b1d3
+ERR2225343	#fb9a99
+ERR2225348	#80b1d3
+ERR2225349	#fb9a99
+ERR2225362	#fb9a99
+ERR2225370	#e31a1c
+ERR2225378	#fb9a99
+ERR2225386	#fb9a99
+ERR2274857	#fb9a99
+ERR2667218	#bebada
+ERR2667263	#e31a1c
+ERR2667285	#fb9a99
+ERR2667289	#fb9a99
+ERR2667291	#e31a1c
+ERR2667292	#e31a1c
+ERR2667301	#fb9a99
+ERR2667302	#e31a1c
+ERR2667305	#fb9a99
+ERR2667338	#fb9a99
+ERR2667340	#fb9a99
+ERR2667342	#fb9a99
+ERR2667351	#fb9a99
+ERR2667362	#fb9a99
+ERR2667363	#fb9a99
+ERR2667367	#fb9a99
+ERR2667369	#fb9a99
+ERR2667381	#fb9a99
+ERR2667721	#fb9a99
+ERR2668030	#fb9a99
+ERR2668099	#fb9a99
+ERR2668101	#fb9a99
+ERR2668104	#fb9a99
+ERR2668109	#fb9a99
+ERR2668121	#fb9a99
+ERR2668122	#fb9a99
+ERR2668132	#fb9a99
+ERR2668133	#fb9a99
+ERR2668138	#fb9a99
+ERR2668142	#fb9a99
+ERR316647	#fb9a99
+ERR3303423	#e31a1c
+ERR3332080	#e31a1c
+ERR3797575	#e31a1c
+ERR3899290	#e31a1c
+ERR3899336	#fb9a99
+ERR714111	#e31a1c
+ERR714381	#fb9a99
+ERR714435	#e31a1c
+ERR742685	#fb9a99
+ERR742686	#fb9a99
+ERR742687	#e31a1c
+ERR742688	#fb9a99
+ERR742689	#fb9a99
+ERR742694	#fb9a99
+ERR750754	#bebada
+ERR750757	#bebada
+ERR750764	#bebada
+ERR750817	#e31a1c
+ERR750821	#e31a1c
+ERR750825	#e31a1c
+ERR750844	#e31a1c
+ERR750850	#e31a1c
+ERR750851	#e31a1c
+ERR750893	#bebada
+ERR750894	#bebada
+ERR774600	#fb9a99
+ERR845778	#fb9a99
+ERR845784	#bebada
+ERR845786	#80b1d3
+ERR870055	#e31a1c
+ERR870189	#b3de69
+ERR870259	#e31a1c
+ERR870311	#b3de69
+ERR876709	#fb9a99
+ERR979898	#e31a1c
+ERR980039	#b3de69
+ERR980333	#e31a1c
+NC_008533	#bebada
+SPN_0164	#fb9a99
+
