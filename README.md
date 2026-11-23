@@ -17,6 +17,8 @@ data/        Supplementary Data 1, plus two downloaded files (see data/README.md
 notebooks/   Jupyter notebooks, one per display item
 scripts/     shell scripts for RAxML and BEAST, and iTOL annotation files
 results/     generated figures
+iTOL/        iTOL annotation files for Phylogenetic and BEAST tree
+BEAST/       combined LOG file of BEAST run
 ```
 
 | Notebook | Display item |
