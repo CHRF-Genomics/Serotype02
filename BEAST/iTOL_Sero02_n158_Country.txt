@@ -1,0 +1,206 @@
+DATASET_COLORSTRIP
+#lines starting with a hash are comments and ignored during parsing
+#select the separator which is used to delimit the data below (TAB	SPACE or COMMA).This separator must be used throught this file (except in the SEPARATOR line which uses space).
+
+SEPARATOR TAB
+#SEPARATOR SPACE
+#SEPARATOR COMMA
+
+#label is used in the legend table (can be changed later)
+DATASET_LABEL	Country
+
+#dataset color (can be changed later)
+COLOR	#000000
+
+#optional settings
+
+#all other optional settings can be set or changed later in the web interface (under 'Datasets' tab)
+COLOR_BRANCHES	1
+#maximum width
+STRIP_WIDTH	50
+
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative,causing datasets to overlap.
+MARGIN	25
+
+#border width; if set above 0, a black border of specified width (in pixels) will be drawn around the color strip 
+BORDER_WIDTH	0
+BORDER_COLOR	#000
+
+#show internal values; if set, values associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display.
+SHOW_INTERNAL	0
+
+LEGEND_TITLE	Country (>2 isolates)											
+LEGEND_SHAPES	1	1	1	1	1	1	1	1	1	1	1	1
+LEGEND_LABELS	Bangladesh	India	Israel	Malawi	Mongolia	Nepal	Nigeria	Papua_New_Guinea	The_Gambia	UK	Unknown	Others
+LEGEND_COLORS	#33a02c	#b2df8a	#1f78b4	#a6cee3	#e31a1c	#fb9a99	#ff7f00	#fdbf6f	#6a3d9a	#958031	#ffff99	#bebada
+
+#In colored strip chart each ID is associated to a color. Color can be specified in hexadecimal RGB or RGBA notation
+#Internal tree nodes can be specified using IDs directly	 or using the 'last common ancestor' method described in iTOL help pages
+#Actual data follows after the "DATA" keyword
+
+DATA
+#Sample_ID	CountryColor
+ERR026715	#bebada
+ERR047914	#bebada
+ERR1192163	#bebada
+ERR1202513	#a6cee3
+ERR1202542	#a6cee3
+ERR1202544	#a6cee3
+ERR1214429	#33a02c
+ERR1214695	#bebada
+ERR1288980	#a6cee3
+ERR1422615	#33a02c
+ERR1438971	#958031
+ERR1438987	#958031
+ERR1440686	#958031
+ERR1440801	#958031
+ERR1440805	#958031
+ERR1440822	#958031
+ERR1440839	#958031
+ERR1440841	#958031
+ERR1658100	#6a3d9a
+ERR1658140	#6a3d9a
+ERR1658181	#6a3d9a
+ERR1658242	#6a3d9a
+ERR1756423	#b2df8a
+ERR2089195	#6a3d9a
+ERR2089975	#6a3d9a
+ERR2090004	#6a3d9a
+ERR2090163	#b2df8a
+ERR2090393	#1f78b4
+ERR2090477	#ff7f00
+ERR2090745	#1f78b4
+ERR2090773	#1f78b4
+ERR2090841	#1f78b4
+ERR2090895	#1f78b4
+ERR2091019	#1f78b4
+ERR2091075	#1f78b4
+ERR2091129	#1f78b4
+ERR2091196	#1f78b4
+ERR2212792	#33a02c
+ERR2212812	#33a02c
+ERR2212813	#33a02c
+ERR2212814	#33a02c
+ERR2212825	#33a02c
+ERR2212827	#33a02c
+ERR2212828	#33a02c
+ERR2212831	#33a02c
+ERR2212836	#33a02c
+ERR2212838	#33a02c
+ERR2212839	#33a02c
+ERR2212856	#33a02c
+ERR2212891	#33a02c
+ERR2212893	#33a02c
+ERR2212897	#33a02c
+ERR2212908	#33a02c
+ERR2212910	#33a02c
+ERR2212917	#33a02c
+ERR2212923	#33a02c
+ERR2212929	#33a02c
+ERR2212931	#33a02c
+ERR2212933	#33a02c
+ERR2212934	#33a02c
+ERR2212937	#33a02c
+ERR2212939	#33a02c
+ERR2212942	#33a02c
+ERR2212950	#33a02c
+ERR2212959	#33a02c
+ERR2212967	#33a02c
+ERR2212970	#33a02c
+ERR2212979	#33a02c
+ERR2213014	#33a02c
+ERR2213045	#33a02c
+ERR2213088	#33a02c
+ERR2213095	#33a02c
+ERR2213096	#33a02c
+ERR2213104	#33a02c
+ERR2225266	#33a02c
+ERR2225267	#33a02c
+ERR2225282	#33a02c
+ERR2225286	#33a02c
+ERR2225306	#33a02c
+ERR2225313	#33a02c
+ERR2225320	#33a02c
+ERR2225326	#33a02c
+ERR2225327	#33a02c
+ERR2225334	#33a02c
+ERR2225335	#33a02c
+ERR2225341	#33a02c
+ERR2225342	#33a02c
+ERR2225343	#33a02c
+ERR2225348	#33a02c
+ERR2225349	#33a02c
+ERR2225362	#33a02c
+ERR2225370	#33a02c
+ERR2225378	#33a02c
+ERR2225386	#33a02c
+ERR2274857	#33a02c
+ERR2667218	#b2df8a
+ERR2667263	#fdbf6f
+ERR2667285	#fdbf6f
+ERR2667289	#fdbf6f
+ERR2667291	#fdbf6f
+ERR2667292	#fdbf6f
+ERR2667301	#fdbf6f
+ERR2667302	#fdbf6f
+ERR2667305	#fdbf6f
+ERR2667338	#fdbf6f
+ERR2667340	#fdbf6f
+ERR2667342	#fdbf6f
+ERR2667351	#fdbf6f
+ERR2667362	#fdbf6f
+ERR2667363	#fdbf6f
+ERR2667367	#fdbf6f
+ERR2667369	#fdbf6f
+ERR2667381	#fdbf6f
+ERR2667721	#bebada
+ERR2668030	#b2df8a
+ERR2668099	#fdbf6f
+ERR2668101	#fdbf6f
+ERR2668104	#fdbf6f
+ERR2668109	#fdbf6f
+ERR2668121	#fdbf6f
+ERR2668122	#fdbf6f
+ERR2668132	#fdbf6f
+ERR2668133	#fdbf6f
+ERR2668138	#fdbf6f
+ERR2668142	#fdbf6f
+ERR316647	#a6cee3
+ERR3303423	#fb9a99
+ERR3332080	#33a02c
+ERR3797575	#bebada
+ERR3899290	#ff7f00
+ERR3899336	#ff7f00
+ERR714111	#6a3d9a
+ERR714381	#6a3d9a
+ERR714435	#6a3d9a
+ERR742685	#e31a1c
+ERR742686	#e31a1c
+ERR742687	#e31a1c
+ERR742688	#e31a1c
+ERR742689	#e31a1c
+ERR742694	#e31a1c
+ERR750817	#33a02c
+ERR750821	#33a02c
+ERR750825	#33a02c
+ERR750844	#33a02c
+ERR750850	#33a02c
+ERR750851	#33a02c
+ERR774600	#a6cee3
+ERR845778	#b2df8a
+ERR845786	#bebada
+ERR870055	#6a3d9a
+ERR870189	#6a3d9a
+ERR870259	#6a3d9a
+ERR870311	#6a3d9a
+ERR876709	#bebada
+ERR979898	#fb9a99
+ERR980039	#fb9a99
+ERR980333	#fb9a99
+SPN_0164	#33a02c
+
+
+
+
+
+

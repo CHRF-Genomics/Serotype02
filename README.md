@@ -17,8 +17,8 @@ data/        Supplementary Data 1, plus two downloaded files (see data/README.md
 notebooks/   Jupyter notebooks, one per display item
 scripts/     shell scripts for RAxML and BEAST, and iTOL annotation files
 results/     generated figures
-iTOL/        iTOL annotation files for Phylogenetic and BEAST tree
-BEAST/       combined LOG file of BEAST run
+Tree_iTOL/   Tree files and iTOL annotation files for Phylogenetic tree
+BEAST/       combined LOG, Tree, and iTOL annotation files of BEAST run
 ```
 
 | Notebook | Display item |
@@ -30,8 +30,8 @@ BEAST/       combined LOG file of BEAST run
 | `Supplementary_Figure_04_age_distribution.ipynb` | Supplementary Figure 4 — age distribution by serotype |
 | `Table_01_statistics.ipynb` | Table 1 — recomputes every exact *P* value from the published counts |
 
-Figures 3 and 4 and Supplementary Figure 5 are phylogenies rendered in
-[iTOL v6](https://itol.embl.de); the trees and their annotation files are in `scripts/`.
+Figures 3 and 4 and Supplementary Figure 5 are phylogenies rendered in [iTOL v6](https://itol.embl.de)
+Newick Tree files of Figure 3 and Supplementary Figure 5, and their annotation files are in `Tree_iTOL/`. Tree file, Log file, and iTOL annotation files of Figure 4 are in `BEAST/`.
 
 ## Running the analyses
 
@@ -95,6 +95,6 @@ Figure 5 uses the Natural Earth 1:110m "Admin 0 – Countries" dataset, which is
 public domain (https://www.naturalearthdata.com). It is not redistributed here; see
 `data/README.md`.
 
-## Licence
+## License
 
-Code is released under the MIT Licence (`LICENSE`).
+Code is released under the MIT License (`LICENSE`).
